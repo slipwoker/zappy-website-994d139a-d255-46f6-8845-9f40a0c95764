@@ -821,10 +821,10 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <!-- Blueprint diagonal edge with cyan ridge line -->
       <defs>
-        <lineargradient id="index-hero-divider-fade" x1="0%" y1="0%" x2="0%" y2="100%">
+        <linearGradient id="index-hero-divider-fade" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:var(--bg-light);stop-"></stop>
           <stop offset="100%" style="stop-color:var(--bg-light);stop-opacity:1"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <!-- Main fill transitioning to light background -->
       <path d="M0,80 L0,50 L1200,25 L1200,80 Z" fill="var(--bg-light)"></path>
@@ -867,78 +867,19 @@
   <div class="index-capabilities-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <lineargradient id="wave-glow-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <linearGradient id="wave-glow-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:#00BFE8;stop-opacity:0.3"></stop>
           <stop offset="50%" style="stop-color:#00BFE8;stop-opacity:0.7"></stop>
           <stop offset="100%" style="stop-color:#00BFE8;stop-opacity:0.3"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
-      <path d="M0,60 L0,25 Q100,20 200,28 T400,22 Q500,28 600,20 T800,26 Q900,18 1000,24 T1200,22 L1200,60 Z" fill="var(--bg-light)"></path>
-      <path d="M0,25 Q100,20 200,28 T400,22 Q500,28 600,20 T800,26 Q900,18 1000,24 T1200,22" fill="var(--bg-light)" stroke="url(#wave-glow-gradient)" stroke-width="2"></path>
+      <path d="M0,60 L0,25 Q100,20 200,28 T400,22 Q500,28 600,20 T800,26 Q900,18 1000,24 T1200,22 L1200,60 Z" fill="var(--bg-dark)"></path>
+      <path d="M0,25 Q100,20 200,28 T400,22 Q500,28 600,20 T800,26 Q900,18 1000,24 T1200,22" fill="var(--bg-dark)" stroke="url(#wave-glow-gradient)" stroke-width="2"></path>
     </svg>
   </div>
 </section>
 
-<section class="index-case-studies-section" data-layout-spec="בית-case-studies">
-  <div class="index-case-studies-container">
-    <div class="index-case-studies-intro">
-      <h2>תוצאות שמתורגמות לעבודה היומיומית</h2>
-      <p>כל סדנה מתורגמת לכלים מעשיים שמשפרים את התהליכים הארגוניים והקהילתיים שלכם. אנחנו לא מדברים על תיאוריה – אנחנו בונים פתרונות AI שעובדים מהיום הראשון ומייצרים שינוי מדיד בזמן אמת.</p>
-    </div>
 
-    <div class="index-case-studies-grid-wrapper">
-      <div class="index-case-studies-grid">
-        <article class="index-case-studies-card">
-          <div class="index-case-studies-card-corner index-case-studies-card-corner-top"></div>
-          <div class="index-case-studies-card-corner index-case-studies-card-corner-bottom"></div>
-          <h3>ארגז כלים למנהל בסשן אחד</h3>
-          <p>מנהל צוות שהגיע ללא ניסיון קודם ב-AI יצא עם 5 תבניות prompt מוכנות לשימוש יומיומי: ניהול פגישות, סיכום החלטות, הכנת מצגות, וניתוח נתונים.</p>
-          <p>לפני: 3 שעות הכנה שבועית לפגישות צוות<br>אחרי: 45 דקות הכנה עם תוצאות מקצועיות יותר</p>
-          <div class="index-case-studies-card-outcome"><strong>תוצאה:</strong> חיסכון של 2.25 שעות עבודה בשבוע</div>
-        </article>
-
-        <article class="index-case-studies-card">
-          <div class="index-case-studies-card-corner index-case-studies-card-corner-top"></div>
-          <div class="index-case-studies-card-corner index-case-studies-card-corner-bottom"></div>
-          <h3>ספרינט אוטומציות לצוות</h3>
-          <p>צוות של 8 עובדים בנה מערכת אוטומציות משותפת שמטפלת בתהליכי עבודה חוזרים: עיבוד בקשות, יצירת דוחות, וניהול תקשורת עם לקוחות.</p>
-          <p>לפני: כל בקשה דרשה טיפול ידני של 20-30 דקות<br>אחרי: 90% מהבקשות מטופלות אוטומטית תוך 3 דקות</p>
-          <div class="index-case-studies-card-outcome"><strong>תוצאה:</strong> שחרור 15 שעות עבודה שבועיות לצוות</div>
-        </article>
-
-        <article class="index-case-studies-card index-case-studies-card-with-icon">
-          <div class="index-case-studies-card-corner index-case-studies-card-corner-top"></div>
-          <div class="index-case-studies-card-corner index-case-studies-card-corner-bottom"></div>
-          <h3>שדרוג תוכנית קהילתית עם AI</h3>
-          <p>מתנ"ס שילב כלי AI בתוכנית הדרכה קיימת ויצר חומרי לימוד מותאמים אישית ל-50 משתתפים, כולל תרגילים, משובים, ומעקב התקדמות.</p>
-          <p>לפני: הכנת חומרים ידנית, משוב כללי לכולם<br>אחרי: חומרים מותאמים אישית, משוב ממוקד לכל משתתף</p>
-          <div class="index-case-studies-card-outcome"><strong>תוצאה:</strong> שיפור של 40% בשביעות רצון המשתתפים</div>
-          <svg class="index-case-studies-card-icon" data-no-icon-edit="true" aria-hidden="true" width="32" height="32" viewbox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 4C16 4 14 6 14 10C14 14 16 16 16 16C16 16 18 14 18 10C18 6 16 4 16 4Z" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
-            <ellipse cx="16" cy="18" rx="6" ry="2" stroke="currentColor" stroke-width="1.5" fill="none"></ellipse>
-            <path d="M10 18V24C10 25.1 12.7 26 16 26C19.3 26 22 25.1 22 24V18" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"></path>
-            <path d="M10 21C10 22.1 12.7 23 16 23C19.3 23 22 22.1 22 21" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"></path>
-          </svg>
-        </article>
-      </div>
-
-      <div class="index-case-studies-decorative-tile"></div>
-    </div>
-  </div>
-
-  <div class="index-case-studies-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <lineargradient id="index-case-studies-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" style="stop-color:#0B2D5C;stop-opacity:1"></stop>
-          <stop offset="50%" style="stop-color:#00BFE8;stop-opacity:0.8"></stop>
-          <stop offset="100%" style="stop-color:#0B2D5C;stop-opacity:1"></stop>
-        </lineargradient>
-      </defs>
-      <rect x="0" y="0" width="1200" height="60" fill="url(#index-case-studies-gradient)"></rect>
-    </svg>
-  </div>
-</section>
 
 <section class="index-cta-section" data-layout-spec="בית-cta">
   <div class="index-cta-section__container">
@@ -951,10 +892,10 @@
     
     <svg class="index-cta-section__corner-lines index-cta-section__corner-lines--top-right" data-no-icon-edit="true" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 200" preserveaspectratio="none">
       <defs>
-        <lineargradient id="corner-gradient-tr" x1="0%" y1="0%" x2="100%" y2="100%">
+        <linearGradient id="corner-gradient-tr" x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" style="stop-color:#00BFE8;stop-opacity:0.12"></stop>
           <stop offset="100%" style="stop-color:#00BFE8;stop-"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <line x1="0" y1="0" x2="200" y2="0" stroke="url(#corner-gradient-tr)" stroke-width="1"></line>
       <line x1="200" y1="0" x2="200" y2="200" stroke="url(#corner-gradient-tr)" stroke-width="1"></line>
@@ -963,10 +904,10 @@
     
     <svg class="index-cta-section__corner-lines index-cta-section__corner-lines--bottom-left" data-no-icon-edit="true" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 200 200" preserveaspectratio="none">
       <defs>
-        <lineargradient id="corner-gradient-bl" x1="100%" y1="100%" x2="0%" y2="0%">
+        <linearGradient id="corner-gradient-bl" x1="100%" y1="100%" x2="0%" y2="0%">
           <stop offset="0%" style="stop-color:#00BFE8;stop-opacity:0.12"></stop>
           <stop offset="100%" style="stop-color:#00BFE8;stop-"></stop>
-        </lineargradient>
+        </linearGradient>
       </defs>
       <line x1="0" y1="200" x2="200" y2="200" stroke="url(#corner-gradient-bl)" stroke-width="1"></line>
       <line x1="0" y1="0" x2="0" y2="200" stroke="url(#corner-gradient-bl)" stroke-width="1"></line>
