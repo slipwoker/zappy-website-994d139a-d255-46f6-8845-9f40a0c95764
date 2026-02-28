@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+סדנת AI מעשית לארגונים ומנהלים שרוצים להטמיע בינה מלאכותית בעבודה היומיומית. למד prompt engineering ואוטומציות שמשנות את המשחק עכשיו.
+
+### סדנה
+https://example.com/workshop
+סדנת בינה מלאכותית לצוותים מקצועיים ומתנ״סים. תלמדו איך להשתמש ב-AI בעבודה, לבנות אוטומציות חכמות ולייעל תהליכים בזמן אמת. תוצאות מיום ראשון.
+
+### אודות
+https://example.com/about
+הכירו את יוחאי אפללו, מומחה להטמעת בינה מלאכותית בארגונים ועמותות. גישה מעשית, טכנולוגית ומתקדמת שמביאה תוצאות אמיתיות לצוותים מקצועיים ורשויות.
+
+### צור קשר
+https://example.com/contact
+מוכנים להטמיע אוטומציות ובינה מלאכותית בארגון שלכם? צרו קשר עכשיו לתיאום סדנת AI מותאמת אישית לצוות המקצועי, המתנ״ס או הרשות שלכם.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
