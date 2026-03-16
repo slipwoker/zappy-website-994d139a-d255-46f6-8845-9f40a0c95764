@@ -1,6 +1,4 @@
-# infinite-dreams-solutions — Generative Engine Optimization Map
-
-> A futuristic AI workshop led by Yochai Apelalo, focusing on practical implementation of artificial intelligence tools in organizational and community work environments. The brand emphasizes immediate results, real-world applications, and smart automation. The workshop teaches prompt engineering, workflow automation, and hands-on AI integration with a professional, authoritative, and tech-forward identity. The aesthetic is deeply rooted in neural networks, glowing digital elements, and sophisticated technology themes.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,15 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About infinite-dreams-solutions
-A futuristic AI workshop led by Yochai Apelalo, focusing on practical implementation of artificial intelligence tools in organizational and community work environments. The brand emphasizes immediate results, real-world applications, and smart automation. The workshop teaches prompt engineering, workflow automation, and hands-on AI integration with a professional, authoritative, and tech-forward identity. The aesthetic is deeply rooted in neural networks, glowing digital elements, and sophisticated technology themes.
-
-## Target Audience
-מנהלים, צוותים מקצועיים, מתנ״סים, רשויות, ארגונים ועמותות
-
-## Industry
-הדרכה וטכנולוגיה
-
+## About Business
 ---
 
 # Additional Resources
